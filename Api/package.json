@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "coffee e-commerce store app",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Mox",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "serve": "^14.2.0",
+    "serverless-http": "^3.2.0",
+    "stripe": "^11.18.0"
+  },
+  "engines": {
+    "node": "18.10.0",
+    "npm": "9.6.4"
+  }
+}
