@@ -26,7 +26,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
+    "server": "nodemon index.js"
   }
 }
