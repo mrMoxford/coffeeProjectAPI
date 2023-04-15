@@ -1,7 +1,7 @@
 import React from "react";
 
 import styled from "styled-components";
-import Video2 from "../assets/Videos/coffeevid02.mp4";
+// import Video2 from "../assets/Videos/coffeevid02.mp4";
 import { tabletDevice, smallDevice } from "../Responsive";
 
 const Container = styled.header`
@@ -45,12 +45,14 @@ const Home = () => {
   return (
     <Container>
       <Content>
-        <HeaderTitle>Let us take your tastebuds on a journey of discovery...</HeaderTitle>
+        <HeaderTitle>
+          Let us take your tastebuds on a journey of discovery...
+        </HeaderTitle>
       </Content>
       <VideoContainer>
-        <Video onMouseOver={e => e.target.play()} muted>
+        {/* <Video onMouseOver={e => e.target.play()} muted>
           <source src={Video2} type="video/mp4" />
-        </Video>
+        </Video> */}
       </VideoContainer>
     </Container>
   );
