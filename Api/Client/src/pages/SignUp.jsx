@@ -114,6 +114,7 @@ const SignUp = () => {
         <Title> Create Your Account</Title>
         <Form onSubmit={handleSubmit}>
           <Input
+            type="text"
             id="name"
             name="name"
             value={name}
@@ -121,6 +122,7 @@ const SignUp = () => {
             placeholder="name"
           />
           <Input
+            type="text"
             id="username"
             name="username"
             value={username}
@@ -128,6 +130,7 @@ const SignUp = () => {
             placeholder="username"
           />
           <Input
+            type="email"
             id="email"
             name="email"
             value={email}
@@ -135,6 +138,7 @@ const SignUp = () => {
             placeholder="email"
           />
           <Input
+            type="password"
             id="password"
             name="password"
             value={password}
@@ -142,6 +146,7 @@ const SignUp = () => {
             placeholder="password"
           />
           <Input
+            type="password"
             id="confirmPassword"
             name="confirmPassword"
             value={confirmPassword}
