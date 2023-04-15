@@ -3,12 +3,12 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const userRoute = require("./Api/routes/user");
-const authRoute = require("./Api/routes/auth");
-const productRoute = require("./Api/routes/products");
-const cartRoute = require("./Api/routes/cart");
-const orderRoute = require("./Api/routes/order");
-const stripeRoute = require("./Api/routes/StripeCheckout");
+const userRoute = require("./routes/user");
+const authRoute = require("./routes/auth");
+const productRoute = require("./routes/products");
+const cartRoute = require("./routes/cart");
+const orderRoute = require("./routes/order");
+const stripeRoute = require("./routes/StripeCheckout");
 
 const app = express();
 
