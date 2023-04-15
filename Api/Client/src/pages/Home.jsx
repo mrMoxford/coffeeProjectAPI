@@ -1,7 +1,7 @@
 import React from "react";
 
 import styled from "styled-components";
-import Video2 from "../../public/coffeevid02.mp4";
+import Video2 from "../assets/videos/coffeevid02.mp4";
 import { tabletDevice, smallDevice } from "../Responsive";
 
 const Container = styled.header`
