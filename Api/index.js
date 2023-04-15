@@ -36,9 +36,21 @@ app.use("/api/checkout", stripeRoute);
 
 // serve front end
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../Client/dist")));
+  app.use(
+    express.static(
+      path.join(
+        __dirname,
+        "https://statuesque-snickerdoodle-02cd4a.netlify.app/"
+      )
+    )
+  );
   app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "../Client/dist/index.html"))
+    res.sendFile(
+      path.resolve(
+        __dirname,
+        "https://statuesque-snickerdoodle-02cd4a.netlify.app/"
+      )
+    )
   );
 } else {
   app.get("/", (req, res) => res.send("please set to production"));
