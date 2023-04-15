@@ -23,5 +23,10 @@
   "engines": {
     "node": "18.10.0",
     "npm": "9.6.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
   }
 }
