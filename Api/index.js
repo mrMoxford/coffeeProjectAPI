@@ -36,11 +36,9 @@ app.use("/api/checkout", stripeRoute);
 
 // serve front end
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../coffeeProject/Client/dist")));
+  app.use(express.static(path.join(__dirname, "../Client/dist")));
   app.get("*", (req, res) =>
-    res.sendFile(
-      path.resolve(__dirname, "../coffeeProject/Client/dist/index.html")
-    )
+    res.sendFile(path.resolve(__dirname, "../Client/dist/index.html"))
   );
 } else {
   app.get("/", (req, res) => res.send("please set to production"));
