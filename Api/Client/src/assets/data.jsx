@@ -1,5 +1,5 @@
-import Video1 from "./Videos/coffeevid01.mp4";
-import Video2 from "./Videos/coffeevid02.mp4";
+import Video1 from "/Videos/coffeevid01.mp4";
+import Video2 from "/Videos/coffeevid02.mp4";
 
 import { ReactComponent as Africa } from "./Countries/africaHighspec.svg";
 import { ReactComponent as Asia } from "./Countries/asiaHighspec.svg";
