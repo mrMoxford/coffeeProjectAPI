@@ -31,7 +31,6 @@ import Thailand03 from "../../public/Thailand03.png";
 import Vietnam01 from "../../public/Vietnam01.png";
 import Vietnam02 from "../../public/Vietnam02.png";
 import Vietnam03 from "../../public/Vietnam03.png";
-import { Brazil01 } from "/Brazil01.png";
 
 export const sliderContent = [
   {
